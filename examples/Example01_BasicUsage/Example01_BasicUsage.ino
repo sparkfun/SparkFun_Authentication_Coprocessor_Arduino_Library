@@ -1,22 +1,21 @@
-// TODO: Add includes as needed
-#include "SparkFun_Template_Arduino_Library.h"
+#include <SparkFun_Auth_3_CP.h> // Click here to get the library: http://librarymanager/All#SparkFun_Authentication_Coprocessor
 
-// TODO: Change Template
-TemplateClass myDevice;
+SparkFunAuth3CPArdI2C myDevice;
 
 void setup()
 {
+    delay(250);
+
     // Start serial
     Serial.begin(115200);
-    Serial.println("Template Example 1 - Basic Uasge"); // TODO: Update
+    Serial.println("Authentication Coprocessor - Basic Uasge");
 
-    // TODO: Check return value of begin
+    Wire.begin();
+
     myDevice.begin();
 
-    // TODO: Add other setup code if needed. Most setup should be done in begin()
 }
 
 void loop()
 {
-    // TODO: Demonstrate minimal code needed for basic usage
 }

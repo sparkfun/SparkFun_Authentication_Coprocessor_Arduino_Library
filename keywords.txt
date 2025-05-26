@@ -1,29 +1,19 @@
 #########################################################
-# Syntax Coloring Map for TODO: Add name                #
+# Syntax Coloring Map for SparkFunAuth3CP               #
 #########################################################
 # Class
 #########################################################
 
-# TODO: Add this
-TemplateClass KEYWORD1
+SparkFunAuth3CPDriver	KEYWORD1
+SparkFunAuth3CPArdI2C	KEYWORD1
 
 #########################################################
 # Methods and Functions
 #########################################################
 
-# TODO: Add these
-begin KEYWORD2
-
-#########################################################
-# Constants
-#########################################################
-
-# TODO: Add these
-TEMPALTE_CONSTANT LITERAL1
-
-#########################################################
-# Structs
-#########################################################
-
-# TODO: Add these
-template_struct_t LITERAL3
+begin	KEYWORD2
+getDeviceCertificateSerialNumber	KEYWORD2
+getDeviceCertificate	KEYWORD2
+setChallengeData	KEYWORD2
+startChallenge	KEYWORD2
+getChallengeResponse	KEYWORD2
