@@ -3,7 +3,9 @@
 name: Cross-compilation
 
 on:
-  - push
+  workflow_dispatch:
+    branches:
+  #- push
   #- pull_request
 
 jobs:
@@ -50,8 +52,8 @@ jobs:
           fqbn: ${{ matrix.board.fqbn }}
           libraries: |
             - source-path: ./
-          # Example of additional libraries needed
-          #- name: Simple FOC
+            # Add library dependencies here:
+            - source-url: https://github.com/sparkfun/SparkFun_Toolkit.git
           sketch-paths: |
             - examples/Example01_BasicUsage
           enable-warnings-report: true

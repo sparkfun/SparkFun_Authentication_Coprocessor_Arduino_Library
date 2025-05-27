@@ -1,6 +1,6 @@
 # SparkFun Authentication Coprocessor Arduino Library
 
-A precompiled Arduino library for the Auth 3.0 Coprocessor - compiled for ESP32
+An Arduino library for the Auth 3.0 Coprocessor - precompiled for ESP32
 
 ## Repository Contents
 
