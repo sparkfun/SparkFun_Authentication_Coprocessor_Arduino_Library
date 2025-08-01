@@ -1,4 +1,18 @@
+/*
+  SparkFun Authentication Coprocessor Arduino Library - Example
+
+  This example demonstrates how to communicate with the Apple Authentication 3.0 Coprocessor
+  (MFI343S00176/77) over Wire (I2C).
+  
+  Unfortunately, the Interface Specification for the coprocessor is only available under NDA.
+  This library is precompiled for the ESP32 to protect the source code.
+
+  Tried and tested on: Arduino esp32 (>= v3.0.7)
+
+*/
+
 #include <SparkFun_Auth_3_CP.h> // Click here to get the library: http://librarymanager/All#SparkFun_Authentication_Coprocessor
+// This library depends on the SparkFun Toolkit: http://librarymanager/All#SparkFun_Toolkit
 
 SparkFunAuth3CPArdI2C myDevice;
 
